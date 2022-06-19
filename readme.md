@@ -12,6 +12,7 @@ This is a collection of simple PHP snippets for beginners or anyone curious abou
     - PHP CodeSniffer
 
 ## Creating your first "Hellow World!" app
+See part-1
 
 ## Now on to the Web!
 Now lets add some HTML, CSS, JS into a PHP file and load it up in the browser.

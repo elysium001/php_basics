@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: rgb(226, 221, 221);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    background: linear-gradient(rgb(85, 36, 85), rgb(97, 2, 97));
+    color: #fff;
+    height: 85px;
+    position: relative;
+}
+
+nav a {
+    color: #fff;
+}
+
+ul {
+    display: inline-block;
+}
+
+.temp-calculator {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
