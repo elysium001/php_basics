@@ -14,19 +14,31 @@ This is a collection of simple PHP snippets for beginners or anyone curious abou
 ## Creating your first "Hellow World!" app
 See part-1
 
+```bash
+cd ./part-1
+php <filename>.php <your argument>
+```
+
 ## Now on to the Web!
 Now lets add some HTML, CSS, JS into a PHP file and load it up in the browser.
 
+```bash
+# change to part-2 directory and start the php server.
+cd ./part-2
+php -S localhost:8080
+```
+
 ## Making your Web App Dynamic
-Up until this point we've developed a cool static app which is useful for things like basic web pages that don't need to display dynamic content. But now we'll switch it up and start to make a dynamic web app that talks to a database and can perform CRUD operations. These types of apps are more common in real world applications.
- ## Connect to MySQL DB
- This can be setup using Docker.
- ## Perform some CRUD operations
+Up until this point we've developed a cool static app which is useful for things like basic web pages that don't need to display dynamic content. But now we'll switch it up and start to make a dynamic web app that talks to a database and can perform CRUD operations. These types of apps are more common in real world applications :)
+
+## Connect to MySQL DB
+This can be setup using Docker.
+
+## Perform some CRUD operations
  - Using backend for CRUD.
  - Making Ajax calls to your backend.
 
-
- ## Using PHP libraries with Composer
+## Using PHP libraries with Composer
  - PHP dotenv
  - PHPUnit
  - Guzzle 
